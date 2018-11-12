@@ -1,0 +1,26 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+int main() {
+
+    cout << "¿Qué calificacion obtuviste en fundamentos de programación?" << endl;
+
+    double calif;
+
+    cin >> calif;
+
+    cout << "Tu calificación es: " << calif << endl;
+
+    if(calif >= 70){
+
+        cout << "Ya pasaste";
+    }else{
+
+        cout << "Reprobaste";
+
+    }
+
+}

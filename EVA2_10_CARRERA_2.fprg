@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-11 07:43:43 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAxMjsyMDE4LTEwLTE3OzA5OjI0OjI0IGEuIG0uOzI4ODg="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAxMjsyMDE4LTEwLTE3OzA5OjMxOjM0IGEuIG0uOzI7Mjk5Ng=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMjA0NjsyMDE4LTEwLTI2OzA5OjA4OjAwIGEuIG0uOzE7MzAwMA=="/>
+        <attribute name="edited" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0xMS0xMTswNzo0Mzo0MyBwLiBtLjsyOzQyNzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="matTer" type="Boolean" array="False" size=""/>
+            <declare name="servSoc" type="Boolean" array="False" size=""/>
+            <declare name="resi" type="Boolean" array="False" size=""/>
+            <assign variable="matTer" expression="true"/>
+            <assign variable="servSoc" expression="true"/>
+            <assign variable="resi" expression="true"/>
+            <if expression="(matTer == true) &amp;&amp; (servSoc == true) &amp;&amp; (resi == true)">
+                <then>
+                    <output expression="&quot;Si se puede titular.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No se puede titular.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

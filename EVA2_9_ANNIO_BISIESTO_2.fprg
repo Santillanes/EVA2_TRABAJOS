@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-11 07:15:37 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAxMjsyMDE4LTEwLTE3OzA5OjM0OjEyIGEuIG0uOzI4ODY="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAxMjsyMDE4LTEwLTE3OzA5OjUzOjUyIGEuIG0uOzQ7MzAwMg=="/>
+        <attribute name="edited" value="THVpcyBTYW50aWxsYW5lcztMQVBUT1AtSktORzlNUkw7MjAxOC0xMS0xMTswNzoxNTozNyBwLiBtLjsxOzQyNzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Escribe un a&#241;o&quot;" newline="True"/>
+            <declare name="annio" type="Integer" array="False" size=""/>
+            <input variable="annio"/>
+            <declare name="resi4" type="Integer" array="False" size=""/>
+            <declare name="resi100" type="Integer" array="False" size=""/>
+            <declare name="resi400" type="Integer" array="False" size=""/>
+            <assign variable="resi4" expression="annio%4"/>
+            <assign variable="resi100" expression="annio%100"/>
+            <assign variable="resi400" expression="annio%400"/>
+            <if expression="(resi4==0) &amp;&amp; (!(resi100==0) || (resi400==0))">
+                <then>
+                    <output expression="&quot;Si es a&#241;o bisiesto&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No es a&#241;o bisiesto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,44 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+
+int main() {
+
+    cout << "Cual es tu edad?" << endl;
+
+    int e;
+
+    cin >> e;
+
+    cout << "Tienes INE?" << endl;
+
+    bool INE;
+
+    cin >> INE;
+
+    
+    // 1=true  0=false
+
+
+    if(e >= 18){
+
+        if(INE == true){
+
+            cout << "PASELE" << endl;
+
+        }else{
+
+            cout << "A la ch$#%& clarita" << endl;
+
+        }
+
+    	}else{
+
+        cout << "Saquese de aqui" << endl;
+
+    }
+
+}

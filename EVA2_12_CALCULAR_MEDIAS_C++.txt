@@ -1,0 +1,55 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+
+
+int main() {
+
+    double e;
+
+    double edades;
+
+    edades = 0;
+
+    cout << "Edad 1: " << endl;
+
+    cin >> e;
+
+    edades = edades + e;
+
+    cout << "Edad 2: " << endl;
+
+    cin >> e;
+
+    edades = edades + e;
+
+    cout << "Edad 3: " << endl;
+
+    cin >> e;
+
+    edades = edades + e;
+
+    cout << "Edad 4: " << endl;
+
+    cin >> e;
+
+    edades = edades + e;
+
+    cout << "Edad 5: " << endl;
+
+    cin >> e;
+
+    edades = edades + e;
+
+    double media;
+
+    media = edades / 5;
+
+    cout << "La media de las edades es: " << media << endl;
+
+	
+
+}

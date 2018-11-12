@@ -1,0 +1,15 @@
+print ("Cual es tu edad?")
+
+e = float(input())
+
+print ("Tienes INE?")
+
+iNE = (input().lower == 'true')
+
+if e >= 18 and iNE == True:
+
+    print("ADELANTE!!")
+
+else:
+
+    print ("NO ENTRAS!!")

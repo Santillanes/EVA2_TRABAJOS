@@ -1,0 +1,11 @@
+print ("Cual es tu edad?")
+
+edad = float(input())
+
+if edad >= 18:
+
+    print("Es mayor de edad.")
+
+else:
+
+    print("NO es mayor de edad.")

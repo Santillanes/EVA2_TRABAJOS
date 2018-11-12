@@ -1,0 +1,19 @@
+edades = 0
+print("Edad 1: ")
+e = float(input())
+edades = edades + e
+print("Edad 2: ")
+e = float(input())
+edades = edades + e
+print("Edad 3: ")
+e = float(input())
+edades = edades + e
+print("Edad 4: ")
+e = float(input())
+edades = edades + e
+print("Edad 5: ")
+e = float(input())
+edades = edades + e
+media = edades / 5
+print("La media de las edades es: ")
+print(media)

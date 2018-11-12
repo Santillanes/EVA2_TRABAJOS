@@ -1,0 +1,13 @@
+matTer = True
+if matTer == True:
+    servSoc = True
+    if servSoc == True:
+        resi = True
+        if resi == True:
+            print("Si se puede titular.")
+        else:
+            print("No se puede titular.")
+    else:
+        print("No se puede titular.")
+else:
+    print("No se puede titular.")

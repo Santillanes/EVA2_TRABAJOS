@@ -1,0 +1,36 @@
+print ("Introduce tu calificacion: ")
+
+calif = float(input())
+
+
+
+if calif == 100:
+
+    print("A")
+
+else:
+
+    if calif == 90:
+
+        print("B")
+
+    else:
+
+        if calif == 80:
+
+            print("C")
+        else:
+
+            if calif == 70:
+
+                print("D")
+
+            else:
+
+                if calif == 60:
+
+                    print("E")
+
+                else:
+
+                    print("Hiciste trampa")

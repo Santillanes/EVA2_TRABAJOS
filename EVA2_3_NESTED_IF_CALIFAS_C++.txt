@@ -1,0 +1,41 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main() {
+
+    cout << "Introduce tu calificacion:" << endl;
+
+    int calif;
+
+    cin >> calif;
+
+    if(calif == 100){
+
+        cout << "A" << endl;
+
+    }else if(calif == 90){
+
+        cout << "B" << endl;
+
+    }else if(calif == 80){
+
+        cout << "C" << endl;
+
+    }else if(calif == 70){
+
+        cout << "D" << endl;
+
+    }else if(calif == 60){
+
+        cout << "E" << endl;
+
+    }else{
+
+        cout << "Hisiste trampa" << endl;
+
+    }
+
+}

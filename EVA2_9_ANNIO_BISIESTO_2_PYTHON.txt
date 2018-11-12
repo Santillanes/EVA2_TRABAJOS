@@ -1,0 +1,9 @@
+print("Escribe un año")
+annio = int(input())
+resi4 = annio % 4
+resi100 = annio % 100
+resi400 = annio % 400
+if resi4 == 0 and (not resi100 == 0 or resi400 == 0):
+    print("Si es año bisiesto")
+else:
+    print("No es año bisiesto")

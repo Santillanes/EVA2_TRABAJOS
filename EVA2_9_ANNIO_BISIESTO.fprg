@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-17 09:40:15 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMjA0NDsyMDE4LTEwLTE2OzA4OjU2OjA0IGEuIG0uOzI4OTU="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMjA0NDsyMDE4LTEwLTE2OzA5OjUyOjUxIGEuIG0uOzY7MzAwNw=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMjA0MzsyMDE4LTEwLTE3OzA5OjQwOjE1IGEuIG0uOzE7Mjk5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Introduce un a&#241;o:&quot;" newline="True"/>
+            <declare name="annio" type="Integer" array="False" size=""/>
+            <input variable="annio"/>
+            <if expression="((annio % 4 = 0) &amp;&amp; !(annio % 100 = 0)) || ((annio % 4 == 0) &amp;&amp; (annio % 100 == 0) &amp;&amp; (annio % 400 == 0))">
+                <then>
+                    <output expression="&quot;A&#241;o bisiesto&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A&#241;o no bisiesto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main() {
+    cout << "Tienes INE?" << endl;
+
+    bool INE;
+
+    cin >> INE;
+
+    
+    // 1=true  0=false
+
+    
+if(INE == true){
+
+        cout << "Si tiene INE" << endl;
+
+    }else{
+
+        cout << "NO tiene INE" << endl;
+
+    }
+
+}

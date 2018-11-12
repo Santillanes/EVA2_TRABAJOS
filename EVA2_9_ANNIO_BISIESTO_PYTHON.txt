@@ -1,0 +1,6 @@
+print("Introduce un anio:")
+annio = int(input())
+if annio % 4 == 0 and not annio % 100 == 0 or annio % 4 == 0 and annio % 100 == 0 and annio % 400 == 0:
+    print("Anio bisiesto")
+else:
+    print("Anio no bisiesto")

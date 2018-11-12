@@ -1,0 +1,51 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+
+
+int main() {
+
+    bool matTer;
+
+    matTer = true;
+
+    if (matTer == true) {
+
+        bool servSoc;
+
+        servSoc = true;
+
+        if (servSoc == true) {
+
+            bool resi;
+
+            resi = true;
+
+            if (resi == true) {
+
+                cout << "Si se puede titular." << endl;
+
+            } else {
+
+                cout << "No se puede titular." << endl;
+
+            }
+
+        } else {
+
+            cout << "No se puede titular." << endl;
+
+        }
+
+    } else {
+
+        cout << "No se puede titular." << endl;
+
+    }
+
+	
+
+}

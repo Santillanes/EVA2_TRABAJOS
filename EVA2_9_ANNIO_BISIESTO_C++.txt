@@ -1,0 +1,29 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+
+
+int main() {
+
+	cout << "Introduce un año." << endl;
+
+	int annio;
+
+	cin >> annio;
+
+	if (annio % 4 == 0 && !(annio % 100 == 0) || annio % 4 == 0 && annio % 100 == 0 && annio % 400 == 0) {
+
+        	cout << "Año bisiesto" << endl;
+
+    	} else {
+
+        	cout << "Año no bisiesto" << endl;
+
+    	}
+
+	
+
+}

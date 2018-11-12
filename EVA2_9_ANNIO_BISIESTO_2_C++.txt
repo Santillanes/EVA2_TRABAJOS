@@ -1,0 +1,41 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+
+
+int main() {
+
+    cout << "Escribe un año:" << endl;
+
+    int annio;
+
+    cin >> annio;
+
+    int resi4;
+
+    int resi100;
+
+    int resi400;
+
+    resi4 = annio % 4;
+
+    resi100 = annio % 100;
+
+    resi400 = annio % 400;
+
+    if (resi4 == 0 && (!(resi100 == 0) || resi400 == 0)) {
+
+        cout << "Si es año bisiesto." << endl;
+
+    } else {
+
+        cout << "No es año bisiesto." << endl;
+
+    }
+
+
+}
+

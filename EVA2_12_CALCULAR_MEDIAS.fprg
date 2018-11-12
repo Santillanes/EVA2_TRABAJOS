@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-25 09:25:14 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAwMTsyMDE4LTEwLTI1OzA5OjA0OjQ4IGEuIG0uOzI4ODk="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAwMTsyMDE4LTEwLTI1OzA5OjI1OjE0IGEuIG0uOzE7Mjk5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="e" type="Real" array="False" size=""/>
+            <declare name="edades" type="Real" array="False" size=""/>
+            <assign variable="edades" expression="0"/>
+            <output expression="&quot;Edad 1: &quot;" newline="True"/>
+            <input variable="e"/>
+            <assign variable="edades" expression="edades+e"/>
+            <output expression="&quot;Edad 2: &quot;" newline="True"/>
+            <input variable="e"/>
+            <assign variable="edades" expression="edades+e"/>
+            <output expression="&quot;Edad 3: &quot;" newline="True"/>
+            <input variable="e"/>
+            <assign variable="edades" expression="edades+e"/>
+            <output expression="&quot;Edad 4: &quot;" newline="True"/>
+            <input variable="e"/>
+            <assign variable="edades" expression="edades+e"/>
+            <output expression="&quot;Edad 5: &quot;" newline="True"/>
+            <input variable="e"/>
+            <assign variable="edades" expression="edades+e"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <assign variable="media" expression="edades / 5"/>
+            <output expression="&quot;La media de las edades es: &quot;&amp;media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
